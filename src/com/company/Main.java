@@ -22,6 +22,7 @@ public class Main {
         lambMethod("a", "b", "c", (x,y,z) -> x.contains("a") && y.contains("b") && z.contains("z"));
         lambMethod("a", "b", "c", (x,y,z) -> x.endsWith("a") && y.endsWith("b") && z.endsWith("z"));
         lambMethod("aba", "aac", "aad", (x,y,z) -> x.equals("aba") & y.equals("aac") && z.equals("aad"));
+        lambMethod("abal", "aacl", "aadl", (x,y,z) -> x.equals("abal") & y.equals("aacl") && z.equals("aadl"));
     }
 }
 
