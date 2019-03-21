@@ -19,6 +19,12 @@ public class Main {
         lambMethod("aba", "aac", "aad", (x,y,z) -> x.equals("aba") & y.equals("aac") && z.equals("aad"));
         lambMethod("abal", "aacl", "aadl", (x,y,z) -> x.equals("abal") & y.equals("aacl") && z.equals("aadl"));
         lambMethod("abaz", "aacz", "aadz", (x,y,z) -> x.equals("abaz") & y.equals("aacz") && z.equals("aadz"));
+
+        int x = 0;
+        for(int i=0; i<5; i++){
+            x++;
+            System.out.println(x);
+        }
     }
 }
 
