@@ -7,12 +7,7 @@ public class Main {
 
     public static void lambMethod(String s1, String s2, String s3, MyInterface myInterface){
         System.out.println(myInterface.metodaGo(s1, s2, s3));
-         System.out.println("zmiana zdalna");
-
-        System.out.println("zmiana zdalna2");
-
-
-        System.out.println("zmiana lokalna");
+         
 
     }
 
